@@ -4,12 +4,16 @@ alert("JavaScript works!");
 //Assignment 3
 // August 22, 2013
 
+//Variables
+
 var workGoals = {
 	proCards = "11%",
 	reservations : "22%"
 };
 
 console.log(workGoals);
+
+//Conditionals
 
 var tradeItems = true
 
@@ -25,3 +29,12 @@ if (tradeItems === true){
 	console.log("Lower sales, I am really really sad.")
 };
 
+var cancelItems = true
+
+if (cancelItems === true){
+	console.log("I do not understand why people preorder just to cancel.")
+}else{
+	console.log("I am glad that I talked the customer to preordering something else and not just canceling.")
+};
+
+//Loops
