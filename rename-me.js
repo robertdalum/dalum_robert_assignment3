@@ -38,3 +38,14 @@ if (cancelItems === true){
 };
 
 //Loops
+
+var res = 15;
+while(res > 12){
+	console.log(res + " reservations is a great number but we always want to be better even though it is great!");
+	res--;
+};
+
+console.log("WHYYYYYYYY the cancels!!!");
+
+//Functions
+
