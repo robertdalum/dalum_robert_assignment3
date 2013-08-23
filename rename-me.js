@@ -7,7 +7,7 @@ alert("JavaScript works!");
 //Variables
 
 var workGoals = {
-	proCards = "11%",
+	proCards : "11%",
 	reservations : "22%"
 };
 
@@ -49,3 +49,17 @@ console.log("WHYYYYYYYY the cancels!!!");
 
 //Functions
 
+var numCust = 87
+var numRes = 23
+var numPro = 5
+var numProCust = 56
+
+var getVal = function (p, r){
+	var pro = p/numProCust;
+	var res = r/numCust;
+	console.log("We got " + pro + " percent on pro and on res we ended up at " + res + " percent.");
+};
+
+getVal(5, 23);
+
+console.log("So we killed our 20% res goal but did not get the percentage need for the pro card. ");
